@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VECPAC A.E. — a three-mode homebrew cartridge for the Vectrex.">
+  <title>VECPAC A.E. — Vectrex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="scanlines"></div>
+    <div class="hero-inner">
+      <p class="eyebrow">GCE / MILTON BRADLEY VECTREX · HOMEBREW · 2026</p>
+      <h1>VECPAC <span>A.E.</span></h1>
+      <p class="tagline">Three modes. One cartridge. Pure vector arcade action.</p>
+      <div class="actions">
+        <a class="button primary" href="downloads/VecpacAE_v1.0.zip">DOWNLOAD v1.0</a>
+        <a class="button" href="downloads/VecpacAE.vec">CARTRIDGE .VEC</a>
+        <a class="button" href="https://github.com/MmmPT/vecpac-ae-vectrex">SOURCE CODE</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro panel">
+      <div>
+        <p class="section-number">01 / CARTRIDGE</p>
+        <h2>One cartridge, three ways to play</h2>
+        <p><strong>VECPAC A.E.</strong> is a Vectrex homebrew cartridge written in Motorola 6809 assembly. The complete image is only 9,255 bytes and combines a 30-level campaign with two standalone arcade modes.</p>
+      </div>
+      <figure class="screen featured">
+        <img src="images/01_main_menu.png" alt="VECPAC A.E. cartridge menu">
+        <figcaption>Main cartridge menu — genuine MAME capture</figcaption>
+      </figure>
+    </section>
+
+    <section class="modes">
+      <p class="section-number">02 / MODES</p>
+      <h2>Choose your mission</h2>
+      <div class="mode-grid">
+        <article class="mode-card">
+          <div class="mode-index">1</div>
+          <h3>GAME</h3>
+          <p>The complete 30-level campaign: three cycles of eight Jetpac stages followed by two Killer Queen stages. Score and reserve lives carry across both games, while the difficulty rises from cycle to cycle.</p>
+        </article>
+        <article class="mode-card">
+          <div class="mode-index">2</div>
+          <h3>MINI GAME JETPAC</h3>
+          <p>A standalone 24-level Vectrex adaptation with four ship designs, precise thrust control, lasers, collectibles, enemies and a dedicated victory screen.</p>
+        </article>
+        <article class="mode-card">
+          <div class="mode-index">3</div>
+          <h3>MINI GAME KILLER QUEEN</h3>
+          <p>A fixed-screen vector shooter with swaying formations, diving attackers, shields and the Killer Queen encounter, with tighter attack patterns as the run progresses.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <p class="section-number">03 / SCREENSHOTS</p>
+      <h2>Captured from the actual cartridge</h2>
+      <div class="gallery-grid">
+        <figure class="screen"><img src="images/02_campaign_jetpac.png" alt="Jetpac during the full campaign"><figcaption>Full campaign — Jetpac stage</figcaption></figure>
+        <figure class="screen"><img src="images/03_jetpac_mode.png" alt="Standalone Jetpac mode"><figcaption>Standalone Jetpac</figcaption></figure>
+        <figure class="screen"><img src="images/04_killer_queen.png" alt="Killer Queen gameplay"><figcaption>Killer Queen</figcaption></figure>
+        <figure class="screen"><img src="images/06_campaign_complete.png" alt="Campaign completion screen"><figcaption>Campaign complete</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="controls panel">
+      <div>
+        <p class="section-number">04 / CONTROLS</p>
+        <h2>Vectrex controller</h2>
+      </div>
+      <div class="control-columns">
+        <div>
+          <h3>MENU</h3>
+          <p><kbd>UP / DOWN</kbd> Select mode</p>
+          <p><kbd>BUTTON 4</kbd> Start</p>
+        </div>
+        <div>
+          <h3>JETPAC</h3>
+          <p><kbd>LEFT / RIGHT</kbd> Move</p>
+          <p><kbd>BUTTON 1</kbd> Thrust</p>
+          <p><kbd>BUTTON 4</kbd> Fire laser</p>
+        </div>
+        <div>
+          <h3>KILLER QUEEN</h3>
+          <p><kbd>LEFT / RIGHT</kbd> Move</p>
+          <p><kbd>BUTTON 4</kbd> Fire</p>
+          <p><kbd>BUTTON 1</kbd> Shield</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="technical">
+      <p class="section-number">05 / TECHNICAL</p>
+      <h2>Built for the vector display</h2>
+      <div class="stats">
+        <div><span>9,255</span><small>BYTES</small></div>
+        <div><span>30</span><small>CAMPAIGN LEVELS</small></div>
+        <div><span>6809</span><small>ASSEMBLY</small></div>
+        <div><span>3</span><small>GAME MODES</small></div>
+      </div>
+      <p class="technical-copy">The repository includes the assembly source, cartridge supervisor, build helper scripts, detailed Jetpac behaviour specification, real emulator captures, and the ready-to-run <code>VecpacAE.vec</code> image. The Vectrex BIOS is not distributed.</p>
+    </section>
+
+    <section class="download panel download-panel">
+      <p class="section-number">06 / DOWNLOAD</p>
+      <h2>Ready for emulator or real hardware</h2>
+      <p>Load the cartridge image in a Vectrex emulator, or copy it to a compatible flash/reprogrammable cartridge for use on original hardware.</p>
+      <div class="actions">
+        <a class="button primary" href="downloads/VecpacAE_v1.0.zip">DOWNLOAD VECPAC A.E. v1.0</a>
+        <a class="button" href="https://github.com/MmmPT/vecpac-ae-vectrex">VIEW SOURCE ON GITHUB</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>VECPAC A.E. · Vectrex homebrew · MmmPT · 2026</p>
+    <p class="legal">Unofficial fan project. Original game names and related intellectual property belong to their respective owners.</p>
+  </footer>
+</body>
+</html>
