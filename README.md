@@ -127,3 +127,10 @@ Project and Vectrex implementation: **MmmPT**.
 The Jetpac mode is an unofficial fan adaptation of the 1983 game *Jetpac*. No affiliation with or endorsement by the original publisher or current rights holders is implied. Original game names and related intellectual property remain the property of their respective owners.
 
 The source code is published for study, preservation and personal use. No Vectrex BIOS, MAME binary, or other third-party ROM is distributed here.
+
+## Credits and AI disclosure
+
+**Game design and programming:** MMM  
+**Repository:** MmmPT  
+
+Claude AI was used as a programming assistant during development. Design choices, integration, testing and final release decisions were made by the author.
